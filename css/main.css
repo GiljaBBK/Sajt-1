@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 header{
 	width: 100%;
   	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -5,7 +6,7 @@ header{
   	z-index: 100;
 }
 .img {
-	background-image: url('res/tesla.jpg');
+	background-image: url(tesla.jpg);
 	background-size: cover;
 	background-position: center;	
 	width: 100%;
@@ -59,20 +60,23 @@ nav ul li:hover {
 	box-sizing: border-box;
 	padding: 10px;
 }
-.content {
-	flex-basis: 80%;
+.h22 {
+	color: white;
+	padding-left: 30px;
 }
-.lp ul li {
-	min-height: 30px;
+.artikl {
+	min-height: 50px;
 	width: 100%;
 	background-color: #64B5F6;
 	overflow: hidden;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	text-decoration: none;
 }
-.lp ul li h3{
+.artikl h2{
 	color: white;
 	text-align: center;
-	transition: 0.1s ease-in-out;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
 }
 .lp ul {
 	list-style: none;
@@ -82,9 +86,109 @@ nav ul li:hover {
 .lp ul li {
 	transition: 0.1s ease-in-out;
 }
+.lp ul li a {
+	text-decoration: none;
+}
 .lp ul li:hover {
 	background-color: white;
 }
-.lp ul li:hover h3 {
+.lp ul li:hover h2 {
 	color: #2196F3;
+}
+.artikl2 {
+	margin-top: 10px;
+	min-height: 50px;
+	width: 100%;
+	background-color: #64B5F6;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	text-decoration: none;
+}
+.artikl2 h2{
+	color: white;
+	text-align: center;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
+}
+.h23 {
+	color: white;
+	padding-left: 30px;
+}
+.rasp {
+	margin-top: 10px;
+	min-height: 50px;
+	width: 100%;
+	background-color: #64B5F6;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	text-decoration: none;
+}
+.rasp h2{
+	color: white;
+	text-align: center;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
+}
+.lok {
+	margin-top: 10px;
+	min-height: 50px;
+	width: 100%;
+	background-color: #64B5F6;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	text-decoration: none;
+}
+.lok h2{
+	color: white;
+	text-align: center;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
+}
+.ucenje {
+	margin-top: 10px;
+	min-height: 50px;
+	width: 100%;
+	background-color: #64B5F6;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	text-decoration: none;
+}
+.ucenje h2{
+	color: white;
+	text-align: center;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
+}
+.content {
+	flex-basis: 80%;
+	padding: 20px;
+}
+.content p {
+	font-size: 14pt;
+}
+.image
+{
+	display: block;
+	width: 100%;
+	margin: auto;
+	border: solid #64B5F6 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.vesti
+{
+	padding: 20px;
+	font-size: 16pt;
+}
+.slike2
+{
+	height: 40%;
+	width: 40%;
+	margin-left: 30px;
+}
+.slike3
+{
+	height: 40%;
+	width: 46%;
+	float: right;
+	margin-right: 30px;
 }
