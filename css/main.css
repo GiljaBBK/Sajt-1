@@ -4,8 +4,11 @@ header{
   	position: relative;
   	z-index: 100;
 }
+a {
+	text-decoration: none;
+}
 .img {
-	background-image: url('res/tesla.jpg');
+	background-image: url(../res/tesla.jpg);
 	background-size: cover;
 	background-position: center;	
 	width: 100%;
@@ -19,22 +22,22 @@ body {
 nav ul li {
 	display: inline-block;
 	color: white;
-	width: 80px;
-	padding: 15px 10px;
 	box-sizing: border-box;
-	text-align: center;
 	transition: 0.1s ease-in-out;
 }
 nav ul li a{
-	text-decoration: none;
+	display: block;
 	color: white;
+	font-size: 1.2rem;
+	padding: 15px 10px;
+	width: 80px;
+	text-align: center;
 }
 nav ul {
 	background-color: #2196F3;
 	margin:0;
 	display: flex;
 	justify-content: center;
-	height: 50px;
 }
 .current {
 	border-bottom:4px solid #FF5722;
@@ -58,6 +61,7 @@ nav ul li:hover {
 	color: white;
 	box-sizing: border-box;
 	padding: 10px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .content {
 	flex-basis: 80%;
@@ -68,6 +72,9 @@ nav ul li:hover {
 	background-color: #64B5F6;
 	overflow: hidden;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.lp ul li a {
+	color: white;
 }
 .lp ul li h3{
 	color: white;
@@ -85,6 +92,6 @@ nav ul li:hover {
 .lp ul li:hover {
 	background-color: white;
 }
-.lp ul li:hover h3 {
+.lp ul li:hover a {
 	color: #2196F3;
 }
