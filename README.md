@@ -1,2 +1,0 @@
-# Sajt
-Sajt skole
