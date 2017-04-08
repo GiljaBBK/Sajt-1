@@ -8,7 +8,8 @@
 .lp ul {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
+
 }
 .lp h2 {
 	margin: 0;
@@ -17,23 +18,24 @@
 	margin: 0;
 }
 .lp ul li {
-	transition: background-color 0.1s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 .lp ul li a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	display: block;
 	padding: 15px;
 }
 .lp ul li:hover {
 	background-color: white;
+	color: blue;
 }
-.lp ul li:hover h2 {
+.lp ul li :hover h3 {
 	color: #2196F3;
 }
 .banner {
 	height: 30px;
-	background-color: hotpink;
+	background-color: #29B6F6;
 	padding: 15px 0;
 	padding-left: 20px;
 }
